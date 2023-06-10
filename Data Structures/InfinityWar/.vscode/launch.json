@@ -1,0 +1,72 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "ForgeStormBreaker",
+            "request": "launch",
+            "mainClass": "avengers.ForgeStormBreaker",
+            "projectName": "InfinityWar_e9f3ecaf"
+        },
+        {
+            "type": "java",
+            "name": "LocateTitan",
+            "request": "launch",
+            "mainClass": "avengers.LocateTitan",
+            "projectName": "InfinityWar_e9f3ecaf",
+            "args": ["locatetitan.in","locatetitan.out"]
+        },
+        {
+            "type": "java",
+            "name": "MindStoneNeighborNeurons",
+            "request": "launch",
+            "mainClass": "avengers.MindStoneNeighborNeurons",
+            "projectName": "InfinityWar_e9f3ecaf",
+            "args": ["mindstoneneighborneurons.in" , "mindstoneneighborneurons.out"]
+        },
+        {
+            "type": "java",
+            "name": "PredictThanosSnap",
+            "request": "launch",
+            "mainClass": "avengers.PredictThanosSnap",
+            "projectName": "InfinityWar_e9f3ecaf"
+        },
+        {
+            "type": "java",
+            "name": "StdIn",
+            "request": "launch",
+            "mainClass": "avengers.StdIn",
+            "projectName": "InfinityWar_e9f3ecaf"
+        },
+        {
+            "type": "java",
+            "name": "StdOut",
+            "request": "launch",
+            "mainClass": "avengers.StdOut",
+            "projectName": "InfinityWar_e9f3ecaf"
+        },
+        {
+            "type": "java",
+            "name": "StdRandom",
+            "request": "launch",
+            "mainClass": "avengers.StdRandom",
+            "projectName": "InfinityWar_e9f3ecaf"
+        },
+        {
+            "type": "java",
+            "name": "UseTimeStone",
+            "request": "launch",
+            "mainClass": "avengers.UseTimeStone",
+            "projectName": "InfinityWar_e9f3ecaf"
+        }
+    ]
+}

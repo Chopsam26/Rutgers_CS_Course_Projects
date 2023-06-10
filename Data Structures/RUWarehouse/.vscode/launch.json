@@ -1,0 +1,73 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+            
+        },
+        {
+            "type": "java",
+            "name": "AddProduct",
+            "request": "launch",
+            "mainClass": "warehouse.AddProduct",
+            "projectName": "RUWarehouse_27de98ef"
+        },
+        {
+            "type": "java",
+            "name": "BetterAddProduct",
+            "request": "launch",
+            "mainClass": "warehouse.BetterAddProduct",
+            "projectName": "RUWarehouse_27de98ef"
+        },
+        {
+            "type": "java",
+            "name": "DeleteProduct",
+            "request": "launch",
+            "mainClass": "warehouse.DeleteProduct",
+            "projectName": "RUWarehouse_27de98ef"
+        },
+        {
+            "type": "java",
+            "name": "Everything",
+            "request": "launch",
+            "mainClass": "warehouse.Everything",
+            "projectName": "RUWarehouse_27de98ef",
+            "args": ["everything.in", "everything.out"]
+        },
+        {
+            "type": "java",
+            "name": "PurchaseProduct",
+            "request": "launch",
+            "mainClass": "warehouse.PurchaseProduct",
+            "projectName": "RUWarehouse_27de98ef", 
+            "args": ["purchaseproduct.in", "purchaseproduct.out"]
+        },
+        {
+            "type": "java",
+            "name": "Restock",
+            "request": "launch",
+            "mainClass": "warehouse.Restock",
+            "projectName": "RUWarehouse_27de98ef"
+        },
+        {
+            "type": "java",
+            "name": "StdIn",
+            "request": "launch",
+            "mainClass": "warehouse.StdIn",
+            "projectName": "RUWarehouse_27de98ef"
+        },
+        {
+            "type": "java",
+            "name": "StdOut",
+            "request": "launch",
+            "mainClass": "warehouse.StdOut",
+            "projectName": "RUWarehouse_27de98ef"
+        }
+    ]
+}
